@@ -56,6 +56,6 @@ def decorator(func):
 
 @decorator #add the dec decorator function to the hello()
 def hello():
-    print("Hello from inner function exexcution")
+    print("Hello from inner function execution")
 
 hello()#simply called the function that is wrapped again
